@@ -5,6 +5,7 @@ st.title("Hand Book")
 
 folder_path = "markdown"
 files = os.listdir(folder_path)
+files.sort()
 selected_files = []
 for file in files:
     if file.endswith(".md"):
