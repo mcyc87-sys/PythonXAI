@@ -15,5 +15,6 @@ all_pages = {
     ],
 }
 
+
 nav = st.navigation(all_pages, position="sidebar")
 nav.run()
