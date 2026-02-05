@@ -12,6 +12,8 @@ all_pages = {
         st.Page("pages/class2-3.py", title="金字塔系列", icon="🔺"),
         st.Page("pages/class2-7.py", title="排版練習", icon="🎨"),
         st.Page("pages/class3-5.py", title="猜數字遊戲", icon="🎲"),
+        st.Page("pages/class4-1.py", title="Picture elements", icon="🖼️"),
+        st.Page("pages/class4-2.py", title="Picture elements", icon="🛒"),
     ],
 }
 

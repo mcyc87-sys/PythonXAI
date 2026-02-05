@@ -32,7 +32,7 @@ if st.button("guess"):
     else:
         st.success("恭喜你猜對了")
         # Reset the game
-        st.balloons
+        st.balloons()
         ss.target = random.randint(0, 100)
         ss.min_val = 0
         ss.max_val = 100
