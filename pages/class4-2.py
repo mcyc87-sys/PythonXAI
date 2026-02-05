@@ -47,7 +47,7 @@ st.title("Generate Product")
 
 col1, col2 = st.columns(2)
 selected_product = col1.selectbox("請選擇要購買的產品", ss.products.keys())
-add_stock = col2.number_input("Generate Product", min_value=1, max_value=1, value=1)
+add_stock = col2.number_input("Generate Product", min_value=1, value=1)
 if st.button("Generate Product"):
     ss.products[selected_product]["stock"] += add_stock
     st.success(f"{selected_product} Restocked {add_stock} 件")
